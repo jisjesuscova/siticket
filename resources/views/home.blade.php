@@ -9,23 +9,15 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/85a1c8a277.js" crossorigin="anonymous"></script>
-  <!-- Tempusdominus Bootstrap 4 -->
-  <link rel="stylesheet" href="/template/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
-  <!-- iCheck -->
-  <link rel="stylesheet" href="template/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
-  <!-- Theme style -->
-  <link rel="stylesheet" href="/template/dist/css/adminlte.min.css">
-  <!-- Custom style -->
-  <link rel="stylesheet" href="/template/dist/css/custom.css">
-  <!-- overlayScrollbars -->
-  <link rel="stylesheet" href="/template/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+
+  @vite('resources/css/app.css')
 </head>
 <body>
   <div id="app">
     
   </div>
   
-  @vite('resources/js/project/main.js')
+  @vite('resources/js/app.js')
 
   <!-- jQuery -->
   <script src="/template/plugins/jquery/jquery.min.js"></script>
