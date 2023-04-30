@@ -9,8 +9,16 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/85a1c8a277.js" crossorigin="anonymous"></script>
-
-  @vite('resources/css/app.css')
+  <!-- Tempusdominus Bootstrap 4 -->
+  <link rel="stylesheet" href="/template/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="template/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="/template/dist/css/adminlte.min.css">
+  <!-- Custom style -->
+  <link rel="stylesheet" href="/template/dist/css/custom.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="/template/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
 </head>
 <body>
   <div id="app">
